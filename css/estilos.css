@@ -1,0 +1,334 @@
+body{
+    font-family: 'Source Sans Pro' , sans-serif;
+    margin: 0px;
+    
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: normal;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: -.2;
+    color: white;
+    margin: 0px;
+    /*text-transform: uppercase;
+    text-decoration: red;*/
+}
+
+h1 strong {
+    color: blue;
+}
+
+h2 {
+    color: blue;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro' , sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+ol, ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+figure {
+    margin: 0px;
+}
+
+.header img {
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+}
+
+.header {
+    background-color: royalblue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+   
+}
+
+.header ol {
+
+    margin: 0px;
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    height: inherit;
+}
+
+
+.header a {
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 60px;
+}
+
+.menu {
+    height: inherit;
+}
+
+.hero {
+    height: 300px;
+    background-color: violet;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.hero-image {
+    object-fit: initial;
+}
+
+.portfolio {
+    background: lightseagreen;
+    padding: 20px;
+}
+
+.project {
+    /* border-top: 10px solid red; */
+    /* border-right: 10px solid green;
+    border-left: 10px solid orange;
+    border-bottom: 10px solid pink; */
+    /* border-color: red;
+    border-width: 15px;
+    border-style: solid;
+    border-top-color: red; */
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: magenta;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* box-sizing: border-box; hace que el tamaño de la caja no se aumente y ni reste solo queda 
+    definido con el valor que usted le dio sin importar cambiar el maring o el padding  */
+    
+    
+}
+
+.project strong {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.project-title {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+
+}
+
+.project-page
+{
+    margin: 10px 0;
+}
+
+.project-date {
+    margin: 10px 0;
+}
+
+.project-url {
+    margin: 10px 0;
+}
+
+.project.description {
+    font-size: 18px;
+    
+}
+.project div {
+    display: flexbox;
+}
+
+.project-details {
+    width: 500px;
+}
+
+.project-container {
+    width: 500px;
+    /* display: inline-block; */
+ 
+    
+}
+
+.experience {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.experience-alcaldia {
+    margin: 10px;
+    width: 480px;
+    flex-shrink: 0; /* acomoda los orbes a la pososicion del tamaño real */
+    border-radius: 10px; /* hacer que los bordes sean circular */
+    overflow: hidden; /* sirve para cuando el borde le falta lo acomode sin dejar orbes sueltos */
+    background-color:  rgba(81, 0, 255, 0.149);
+}
+
+.experience-alcaldia img {
+    width: 480px;
+    height: 200px;
+    object-fit: cover; /* aomoda bien la imagen */
+}
+
+.experience-details {
+
+    margin: 20px 40px;
+    background-color: white;
+    margin-top: -40px;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.experience-description {
+    text-align: left;
+}
+
+.experience-url {
+    color: blue;
+    border: 1px solid; 
+    padding: 5px 20px; 
+    text-decoration: none; /* quita los subrayados de los textos */
+}
+
+.footer {
+    background-color: darkgray;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img {
+    vertical-align: middle;
+}
+
+.footer a {
+    color: white;
+}
+
+.contact {
+    display: flex;
+    color: white;
+    align-items: center;
+    background: blue;
+    height: 150px;
+    justify-content: space-between;
+}
+
+.form-email input {
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px 20px 10px 25px;
+    background-image: url('../imagen/message.png');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.form-email button {
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    padding: 5px 0px;
+    border-radius: 5px;
+    width: 100px;
+    align-items: center;
+    justify-content: space-between;
+    display: inline-block;
+    
+}
+
+.form-email{
+    font-family: 'Source Sans Pro' , sans-serif;
+    padding: 0px 20px;
+}
+
+.form-email h3 {
+    position: relative;
+    text-align: center;
+
+}
+
+.social-link {
+
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    margin: 0px 10px;
+}
+
+.social-link.facebook {
+    background-image: url("../imagen/facebook.svg");
+}
+
+.social-link.twitter {
+    background-image: url("../imagen/twitter.svg");
+}
+
+
+.social-link.instagram {
+    background-image: url("../imagen/instagram.svg");
+}
+
+
+.social-link.github {
+    background-image: url("../imagen/facebook.svg");
+}
+
+.container {
+    width: 1000px;
+    background-color: #3498db;
+    margin: 0px auto;
+    display: inherit; /* hereda lo que hay en el header */
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: wrap;
+}
+/* reglas
+selectores
+declaraciones
+propiedades 
+valores */
+
+
+/*header /* selector*/ /* declaracion *//*{
+    /* propiedad *//*background: /*valor */ /*red ; 
+}*/
+
+/* selector descendente */
+/* body - header - div - nav -ol - li - a */
+
+/* selector de clases qe es como un id pero tipo clase*/
+
+/* link */
+
+/* selector de id */
+
+/* se declara con # y nombre #portafolio*/
