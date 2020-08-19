@@ -1,7 +1,7 @@
 body{
     font-family: 'Source Sans Pro' , sans-serif;
     margin: 0px;
-    
+    background-color: #33A5FF;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -52,7 +52,7 @@ figure {
 }
 
 .header {
-    background-color: royalblue;
+    background-color: #33A5FF;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -88,7 +88,7 @@ figure {
 
 .hero {
     height: 300px;
-    background-color: violet;
+    background-color: #33A5FF;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -100,7 +100,7 @@ figure {
 }
 
 .portfolio {
-    background: lightseagreen;
+    background: #33A5FF;
     padding: 20px;
 }
 
@@ -117,7 +117,7 @@ figure {
     border-radius: 10px;
     margin-bottom: 15px;
     padding: 20px;
-    background: magenta;
+    background: rgb(55, 131, 225);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -213,7 +213,8 @@ figure {
 }
 
 .footer {
-    background-color: darkgray;
+    background-color: #3498db;
+    border: 1px solid #6433FF;
     color: white;
     display: flex;
     align-items: center;
@@ -224,6 +225,9 @@ figure {
     vertical-align: middle;
 }
 
+.footer p {
+    margin-left: 10px;
+}
 .footer a {
     color: white;
 }
@@ -232,7 +236,7 @@ figure {
     display: flex;
     color: white;
     align-items: center;
-    background: blue;
+    background-color: #33A5FF;
     height: 150px;
     justify-content: space-between;
 }
@@ -285,6 +289,7 @@ figure {
 
 .social-link.facebook {
     background-image: url("../imagen/facebook.svg");
+    
 }
 
 .social-link.twitter {
@@ -310,6 +315,7 @@ figure {
     align-items: inherit;
     height: inherit;
     flex-wrap: wrap;
+    border: 1px solid #6433FF;
 }
 /* reglas
 selectores
