@@ -307,7 +307,7 @@ figure {
 }
 
 .container {
-    width: 1000px;
+    max-width: 1000px;
     background-color: #3498db;
     margin: 0px auto;
     display: inherit; /* hereda lo que hay en el header */
