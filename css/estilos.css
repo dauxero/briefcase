@@ -169,6 +169,7 @@ body {
     margin: 0;
   }
   
+
   .header a {
     color: white;
     text-decoration: none;
@@ -327,6 +328,7 @@ body {
   .container {
     /* border: 1px solid red; */
     max-width: 1000px;
+    flex: 1;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
@@ -341,9 +343,23 @@ body {
 
   }
 
-  @media screen and (max-width: 768px) {
-      body {
-          
+  @media screen and (max-width: 767px) {
+      .header {
+          display: block;
+          height: auto;
+      }
+      .header ol {
+          display: block;
+      }
+      .header ol li {
+          height: 50px;
+          flex-direction: column;
+      }
+      .header ol li a {
+          justify-content: center;
+      }
+      .header .logo {
+          text-align: center;
       }
 }
 @media screen and (max-width: 480px) {
