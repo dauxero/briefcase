@@ -1,344 +1,355 @@
-body{
-    font-family: 'Source Sans Pro' , sans-serif;
-    margin: 0px;
-    background-color: #33A5FF;
-}
+/* reglas
+selectores
+declaraciones
+propiedades
+valores */
 
-h1, h2, h3, h4, h5, h6{
+
+/* seletor de etiqueta  header - section - article - nav */
+/* header {
+  background: pink;
+  color: red
+} */
+
+/* selector descendente  */
+/* body header div nav ol li a  */
+
+/* selector de clase . */
+
+/* .link */
+
+/* selector de id # */
+/* #portafolio */
+
+
+
+/* gris oscuro = #1d252c */
+/* gris claro = #626262 */
+/* background gris = #1b2127 */
+/* celeste = #026fff */
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+  }
+  
+  h1, 
+  h2,
+  h3,
+  h4,
+  h5,
+  h6{
     font-family: 'Fjalla One', sans-serif;
     font-weight: normal;
-}
-
-h1{
+    /* font-style: italic; */
+  }
+  
+  h1 {
     font-size: 40px;
     line-height: 1.5;
-    letter-spacing: -.2;
+    letter-spacing: -.2px;
     color: white;
-    margin: 0px;
-    /*text-transform: uppercase;
-    text-decoration: red;*/
-}
-
-h1 strong {
-    color: blue;
-}
-
-h2 {
-    color: blue;
+    margin: 0;
+    /* margin: 100px 150px 70px 30px; */
+    /* text-transform: uppercase; */
+    /* text-decoration: dashed; */
+  }
+  h1 strong {
+    color: #026fff;
+  }
+  h2 {
+    color: #026fff;
     text-transform: uppercase;
-    font-family: 'Source Sans Pro' , sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 40px;
-    margin-left: 20px;
-}
-
-ol, ul {
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
-
-figure {
-    margin: 0px;
-}
-
-.header img {
-    width: 200px;
-    height: 50px;
-    margin: 10px;
-    padding: 20px;
-    display: flex;
-}
-
-.header {
-    background-color: #33A5FF;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    height: 90px;
-    align-items: center;
-    flex-wrap: wrap;
-   
-}
-
-.header ol {
-
-    margin: 0px;
-    display: flex;
-    height: inherit;
-}
-
-.header ol li {
-    height: inherit;
-}
-
-
-.header a {
-    color: white;
-    text-decoration: none;
-    height: inherit;
-    display: flex;
-    align-items: center;
-    padding: 0px 60px;
-}
-
-.menu {
-    height: inherit;
-}
-
-.hero {
+  }
+  
+  .hero {
     height: 300px;
-    background-color: #33A5FF;
+    /* background-image: url('../images/hero.jpg'); */
+    background-color: #1b2127;
+    /* background-size: 500px 300px; */
+    /* background-repeat: no-repeat; */
+    /* background-position-x: right; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    
-}
-
-.hero-image {
-    object-fit: initial;
-}
-
-.portfolio {
-    background: #33A5FF;
+  
+  }
+  
+  .hero-image{
+    object-fit: cover;
+  }
+  
+  
+  .portfolio {
+    background: #fafafa;
     padding: 20px;
-}
-
-.project {
-    /* border-top: 10px solid red; */
-    /* border-right: 10px solid green;
+    /* background: red; */
+  }
+  
+  .project {
+    /* border-top: 10px solid red;
+    border-right: 10px solid green;
     border-left: 10px solid orange;
     border-bottom: 10px solid pink; */
-    /* border-color: red;
-    border-width: 15px;
-    border-style: solid;
-    border-top-color: red; */
+    /* color: blue; */
+    /* border-top-color: red;
+    border-top-width: 15px;
+    border-top-style: solid; */
     border: 1px solid gray;
     border-radius: 10px;
+    /* border-top-left-radius: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
+    /* margin: 10px; */
     margin-bottom: 15px;
+    /* margin-right
+    margin-left 
+    margin-top */
     padding: 20px;
-    background: rgb(55, 131, 225);
+    background: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* box-sizing: border-box; hace que el tamaño de la caja no se aumente y ni reste solo queda 
-    definido con el valor que usted le dio sin importar cambiar el maring o el padding  */
-    
-    
-}
-
-.project strong {
+  }
+  .project-course,
+  .project-date,
+  .project-url {
+    margin: 10px 0;
+  }
+  .project-description {
+    font-size: 20px;
+  }
+  .project strong {
     font-family: 'Fjalla One', sans-serif;
-}
-
-.project-title {
+  }
+  /* .project-date {
+    margin: 10px 0;
+  } */
+  
+  .project-title {
     font-size: 30px;
     margin-top: 0;
     margin-bottom: 10px;
-
-}
-
-.project-page
-{
-    margin: 10px 0;
-}
-
-.project-date {
-    margin: 10px 0;
-}
-
-.project-url {
-    margin: 10px 0;
-}
-
-.project.description {
-    font-size: 18px;
-    
-}
-.project div {
-    display: flexbox;
-}
-
-.project-details {
+  }
+  
+  
+  .project-details {
     width: 500px;
-}
-
-.project-container {
+  }
+  
+  .project-imageContainer {
     width: 500px;
-    /* display: inline-block; */
- 
-    
-}
-
-.experience {
+  }
+  
+  .header {
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  ol,
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  figure {
+    margin: 0;
+  }
+  
+  .header a {
+    color: white;
+    text-decoration: none;
+  }
+  .menu {
+    height: inherit;
+  }
+  .header ol {
+    display: flex;
+    height: inherit;
+  }
+  .header ol li {
+    height: inherit;
+  }
+  .header a {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+  }
+  
+  .flexbox {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+  }
+  
+  .box {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid red;
+  
+    flex-shrink: 0;
+  }
+  
+  .footer {
+    color: white;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer img {
+    vertical-align: middle;
+  }
+  
+  .footer a {
+    color: white;
+  }
+  
+  .event-list {
     display: flex;
     flex-wrap: wrap;
-}
-
-.experience-alcaldia {
+  }
+  .event-list-title {
+    margin-left: 20px;
+  }
+  .event { 
     margin: 10px;
     width: 480px;
-    flex-shrink: 0; /* acomoda los orbes a la pososicion del tamaño real */
-    border-radius: 10px; /* hacer que los bordes sean circular */
-    overflow: hidden; /* sirve para cuando el borde le falta lo acomode sin dejar orbes sueltos */
-    background-color:  rgba(81, 0, 255, 0.149);
-}
-
-.experience-alcaldia img {
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f4fbff;
+  }
+  .event img {
     width: 480px;
     height: 200px;
-    object-fit: cover; /* aomoda bien la imagen */
-}
-
-.experience-details {
-
+    object-fit: cover;
+  }
+  .event-detail {
     margin: 20px 40px;
-    background-color: white;
     margin-top: -40px;
+    background-color: white;
     position: relative;
     padding: 20px;
     text-align: center;
-
-}
-
-.experience-description {
+  }
+  .event-description {
     text-align: left;
-}
-
-.experience-url {
-    color: blue;
-    border: 1px solid; 
-    padding: 5px 20px; 
-    text-decoration: none; /* quita los subrayados de los textos */
-}
-
-.footer {
-    background-color: #3498db;
-    border: 1px solid #6433FF;
+  }
+  
+  .event-url {
+    color: #056fff;
+    border: 1px solid;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .contact {
+    background-color: #056fff;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.footer img {
-    vertical-align: middle;
-}
-
-.footer p {
-    margin-left: 10px;
-}
-.footer a {
-    color: white;
-}
-
-.contact {
-    display: flex;
-    color: white;
-    align-items: center;
-    background-color: #33A5FF;
     height: 150px;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-.form-email input {
+  }
+  
+  .social {
+  }
+  
+  .social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px;
+  }
+  
+  .social-link.twitter {
+    background-image: url('../images/twitter.svg');
+  }
+  .social-link.facebook {
+    background-image: url('../images/facebook.svg');
+  }
+  .social-link.github {
+    background-image: url('../images/github.svg');
+  }
+  .social-link.instagram {
+    background-image: url('../images/instagram.svg');
+  }
+  
+  
+  .form-email input {
     border-color: gray;
     border-style: solid;
     border-radius: 5px;
     padding: 10px 20px 10px 25px;
-    background-image: url('../imagen/message.png');
+    background-image: url('../images/envelope.svg');
     background-size: 15px 15px;
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: 5px;
-}
-
-.form-email button {
+  }
+  
+  .form-email button {
     display: block;
-    margin-top: 10px;
     background: transparent;
     color: white;
-    padding: 5px 0px;
+    padding: 10px 0;
     border-radius: 5px;
     width: 100px;
-    align-items: center;
-    justify-content: space-between;
-    display: inline-block;
-    
-}
-
-.form-email{
-    font-family: 'Source Sans Pro' , sans-serif;
-    padding: 0px 20px;
-}
-
-.form-email h3 {
-    position: relative;
-    text-align: center;
-
-}
-
-.social-link {
-
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    background-size: 50px 50px;
-    margin: 0px 10px;
-}
-
-.social-link.facebook {
-    background-image: url("../imagen/facebook.svg");
-    
-}
-
-.social-link.twitter {
-    background-image: url("../imagen/twitter.svg");
-}
-
-
-.social-link.instagram {
-    background-image: url("../imagen/instagram.svg");
-}
-
-
-.social-link.github {
-    background-image: url("../imagen/facebook.svg");
-}
-
-.container {
+    margin-top: 10px;
+  }
+  
+  .form-email h3 { 
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  .container {
+    /* border: 1px solid red; */
     max-width: 1000px;
-    background-color: #3498db;
-    margin: 0px auto;
-    display: inherit; /* hereda lo que hay en el header */
+    margin: 0 auto;
+    display: inherit;
     justify-content: inherit;
     align-items: inherit;
     height: inherit;
-    flex-wrap: wrap;
+    flex-wrap: inherit;
+  }
+
+  /* desktop first que empiece desde el mq mas grande */
+
+  @media screen and (max-width: 1024px) {
+
+  }
+
+  @media screen and (max-width: 768px) {
+      body {
+          
+      }
 }
-/* reglas
-selectores
-declaraciones
-propiedades 
-valores */
+@media screen and (max-width: 480px) {
+      
+}
 
-
-/*header /* selector*/ /* declaracion *//*{
-    /* propiedad *//*background: /*valor */ /*red ; 
-}*/
-
-/* selector descendente */
-/* body - header - div - nav -ol - li - a */
-
-/* selector de clases qe es como un id pero tipo clase*/
-
-/* link */
-
-/* selector de id */
-
-/* se declara con # y nombre #portafolio*/
+@media screen and (max-width: 320px) {
+      
+}
