@@ -58,6 +58,7 @@ figure {
     justify-content: space-between;
     height: 90px;
     align-items: center;
+    flex-wrap: wrap;
    
 }
 
@@ -92,6 +93,7 @@ figure {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     
 }
 
@@ -121,6 +123,7 @@ figure {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     /* box-sizing: border-box; hace que el tamaño de la caja no se aumente y ni reste solo queda 
     definido con el valor que usted le dio sin importar cambiar el maring o el padding  */
     
@@ -219,6 +222,7 @@ figure {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer img {
@@ -239,6 +243,7 @@ figure {
     background-color: #33A5FF;
     height: 150px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .form-email input {
@@ -315,7 +320,6 @@ figure {
     align-items: inherit;
     height: inherit;
     flex-wrap: wrap;
-    border: 1px solid #6433FF;
 }
 /* reglas
 selectores
