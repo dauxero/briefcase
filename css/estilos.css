@@ -290,16 +290,16 @@ body {
   }
   
   .social-link.twitter {
-    background-image: url('../images/twitter.svg');
+    background-image: url('../imagen/twitter.svg');
   }
   .social-link.facebook {
-    background-image: url('../images/facebook.svg');
+    background-image: url('../imagen/facebook.svg');
   }
   .social-link.github {
-    background-image: url('../images/github.svg');
+    background-image: url('../imagen/github.svg');
   }
   .social-link.instagram {
-    background-image: url('../images/instagram.svg');
+    background-image: url('../imagen/instagram.svg');
   }
   
   
@@ -411,6 +411,12 @@ body {
     .event-detail {
       margin: -40px 10px 10px 10px;
       padding: 1em;
+    }
+    .contact {
+      height: auto;
+      padding: 1em 0;
+      text-align: center;
+      display: block;
     }
 }
 
