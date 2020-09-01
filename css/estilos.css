@@ -279,6 +279,7 @@ body {
   }
   
   .social {
+
   }
   
   .social-link {
@@ -417,6 +418,10 @@ body {
       padding: 1em 0;
       text-align: center;
       display: block;
+    }
+
+    .form-email button {
+      margin: 1em auto;
     }
 }
 
