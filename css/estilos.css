@@ -348,6 +348,28 @@ body {
     .container {
       padding: 0 1em;
     }
+    .hero {
+      height: auto;
+      position: relative; /* la posicion relativa lo que hace es que el texto o la imagen quede dentro de la seccion que es */
+      overflow: hidden; /* sirve pa que no se desborde los item ya sea texto o imagen */
+      padding: 2em;
+      
+    }
+    .hero-image {
+      position: absolute; /* posicion absolute ocupa todo del primer seccion que tenga hasta donde esta declaron la position */
+      z-index: 1;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      width: 100%;
+      filter: opacity(80%) blur(1px);
+      object-position: center 25%;
+    }
+    h1 {
+      z-index: 2;
+      font-size: 2em;
+    }
   }
 
   @media screen and (max-width: 767px) {
@@ -442,7 +464,9 @@ body {
         width: auto;
         font-size: 10px;
     }
-
+    h1 {
+      font-size: 1em;
+    }
     .contact {
       height: auto;
       padding: 1.5em 0;
