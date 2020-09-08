@@ -303,7 +303,6 @@ body {
     background-image: url('../imagen/instagram.svg');
   }
   
-  
   .form-email input {
     border-color: gray;
     border-style: solid;
@@ -340,6 +339,11 @@ body {
     align-items: inherit;
     height: inherit;
     flex-wrap: inherit;
+  }
+
+  .html-video {
+    height: auto;
+    width: 100%;
   }
 
   /* desktop first que empiece desde el mq mas grande */
@@ -427,6 +431,10 @@ body {
       .event img {
         width: 100%;
       }
+      
+      .html-video {
+        width: 100%;
+      }
 }
 @media screen and (max-width: 480px) {
     .project-details {
@@ -457,6 +465,10 @@ body {
       text-align: center;
       border: 1px solid transparent;
     }
+    .html-video {
+      width: 100%;
+      height: auto;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -480,5 +492,9 @@ body {
 
     .form-email h3 {
       margin-top: 0;
+    }
+    .html-video {
+      width: 100%;
+      height: auto;
     }
 }
